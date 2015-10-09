@@ -1,0 +1,16 @@
+<h1>Found States</h1>
+
+<table>
+  <tr>
+    <th>Abbreviation</th>
+    <th>Name</th>
+    <th>Capital City</th>
+  </tr>
+  <% @states.each do |state| %>
+    <tr>
+      <td><%= state.abbreviation %></td>
+      <td><%= state.name %></td>
+      <td><%= state.capital %></td>
+    </tr>
+  <% end %>
+</table>

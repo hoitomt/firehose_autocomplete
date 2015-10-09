@@ -1,0 +1,12 @@
+<h1>States</h1>
+<%= form_tag search_states_path, method: :GET do %>
+  <%= text_field_tag :search_term %>
+<% end %>
+<table id="result_table">
+  <tr>
+    <th>Abbreviation</th>
+    <th>Name</th>
+    <th>Capital City</th>
+  </tr>
+</table>
+
